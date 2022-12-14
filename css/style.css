@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+/* Generales */
+
+ body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #61bd00;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: larger;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+} 
+
+
+ main{
+    padding-top: 90px;
+    width: 1000px;
+    margin: auto;
+}
+
+footer{ 
+    background-color: #61bd00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #61bd00;
+    border: solid white 1px;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+nav{    
+    padding-top: 40px;
+
+}
+
+body{
+    font-family: sans-serif;
+
+}
+
+span{
+    color: #61bd00;
+}
+
+h1, h2{
+    padding-top: 36px;
+    padding-bottom: 10px;
+}
+h3{
+    margin-top: 20px;
+}
+div h3 a{
+    color: blueviolet;
+}
+
+div h3 a:hover{
+    color: blue;
+}
+
+fieldset{
+    border-radius: 10px;
+    padding-left: 15px;
+    color: black;
+    background-color: #61bd00;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Clases con cambios especificos */
+ .gmail{
+    float: left;
+}
+.ig{
+    float: right;
+}
+.face{
+    float: left;
+}
+
+.tex{
+    display: flex;
+}
+
+.ty{
+    padding-top: 100px;
+    padding-bottom: 705px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.text2 h2{
+    color: #61bd00;
+    font-size:xx-large;
+}
+
+.text2{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.text2 div p{
+    font-size: 24px;
+    padding-right: 25px;
+}
+
+.tex3{
+    margin-left: 20px;
+}
+
+.img2{
+    padding-top: 15px;
+}
+
+.img1{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.sub{
+    margin-top: 20px;
+}
+
+.tit2{
+    padding-top: 5px;
+}
+
+.info{
+    margin-top: 53px;
+}
+
+.textbanco{
+    padding-left: 10px;
+}
+
+.form{
+    padding-bottom: 165px;
+    background-color: black;
+    color: white;
+
+}
+
+.form div h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pform{
+    margin-bottom: 35px;
+}
+

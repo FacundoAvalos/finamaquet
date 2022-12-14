@@ -1,0 +1,94 @@
+header{
+    justify-content: left;
+    font-size: smaller;
+    width: 100%;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+nav{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+body{
+    align-items: center;
+    
+}
+
+header img{
+    max-width: 80px;
+}
+
+figure img, div iframe{
+    max-width: 80%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+main{
+    width: 100%;
+    
+}
+
+div figure figcaption{
+    padding-left: 20px;
+}
+
+
+p, h2, h3, h1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    padding-left: 5px;
+    font-size: smaller;
+    padding-right: 5px;
+}
+
+footer div img{
+    max-width: 20px ;
+}
+
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.ig{
+    float: none;
+}
+
+.text2 div figure img{
+    max-width: 200px;
+}
+
+.text2 div h2{
+    font-size: small;
+    padding-top: 10px;
+}
+
+.h1{
+    font-size: 20px;
+}
+
+.text2 div p{
+    font-size: smaller;
+}
+
+.ban{
+    max-width: 100%;
+    padding-left: 0;
+}
+
+.form{
+    padding-bottom: 20px;
+}
+
+.ty{
+    padding-bottom: 300px;
+}

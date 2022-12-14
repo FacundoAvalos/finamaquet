@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css" media="screen and (max-width:480px)">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <title>Ciudad de Buenos Aires</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/Logo.png" alt="Logo de la provincia de Buenos Aires"> <a href="index.html"></a>
+        </div>
+        <div class="nav">
+            <nav>    
+                <a href="index.html">Inicio</a>
+            
+                <a href="puntostur.html">Puntos turisticos</a>
+
+                <a href="historia.html">Historia</a>
+           
+                <a href="info.html">Información</a>
+           
+                <a href="#">Contacto</a>       
+            </nav>
+        </div>
+    </header>
+    <main class="form">
+        <div>
+            <h1>¿Necesitas ayuda?</h1>
+            <h2>Estas en el lugar correcto</h2>
+            <p class="pform">Contactate con nosotros completando los siguientes datos, nuestros asistentes podrán ayudarte con cualquier problema relacionado con la ciudad</p>
+        </div>
+        <form action="#" method="get" enctype="application/x-www-form-urlencoded"></form>
+        <fieldset>
+            <div>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" name="nombre" placeholder="Nombre completo" >
+            </div>
+
+            <div>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario">
+            </div>
+
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese una contraseña">
+            </div>
+
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" placeholder="Ingrese su email" autocomplete="email">
+            </div>
+            
+            <div>
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento" >
+            </div>
+
+            <div>
+                <label for="genero">Género</label>
+                <select name="genero" id="genero">
+                    <option value="femenino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="no">Prefiero no decirlo</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="deporte">Deporte</label>
+                <select name="deporte" id="deporte">
+                    <option value="empty">niguno</option>
+                    <option value="futbol">Futbol</option>
+                    <option value="basquet">Basquet</option>
+                    <option value="voley">Voley</option>
+                    <option value="tennis">Tennis</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="foto">Ingrese una foto suya</label>
+                <input type="file" accept="image/jpg">
+            </div>
+
+            <div>
+                <form action="gracias.html">
+                    <input type="submit" value="Enviar">
+                </form>
+                <input type="reset">
+            </div>
+
+        </fieldset>
+
+    </main>
+
+    <footer>
+        <div class="ciud">
+            <p>Facundo Avalos - Maquetado y desarrollo web - Alejandro D'ADDEZIO</p>
+            <p>Final cuatrimestre de la Escuela Da Vinci 2022.</p>
+        </div>
+        <div class="redes">
+            <p>¡Seguinos!</p>
+                <div class="ig">
+                <img src="../img/ig.png" alt="Instagram logo">
+                </div>
+                <div class="face">
+                <img src="../img/face.png" alt="Facebook logo">
+                </div>
+                <div class="gmail">
+                <img src="../img/gmail.png" alt="Gmail logo">
+                </div>
+            
+        </div>
+    </footer>
+    </body>
+    </html>
